@@ -37,7 +37,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 300px;
+    height: 280px;
     width: 100%;
 }
 
@@ -53,7 +53,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 300px;
+    height: 280px;
     width: 100%;
 }
 
@@ -81,6 +81,58 @@
     padding-left: 10px;
     height: 130px;
     width: 170px;
+}
+
+#depoimento-usuarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+}
+
+#container-comentarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: orange;
+    height: 820px;
+    width: 80%;
+}
+
+.container-perfil{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 25%;
+    width: 70%; 
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentario{
+    height: 50%;
+    width: 90%;
+    overflow: auto;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.espacamento{
+    padding-right: 20px;
+}
+
+.avaliacao{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 }
 
 .negrito{
